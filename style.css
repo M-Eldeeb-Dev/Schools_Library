@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #000000, #013220); 
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Carousel image and caption */
+.carousel-item img {
+    object-fit: cover !important;
+    height: 300px !important;
+    filter: brightness(80%) !important;
+}
+
+.carousel-caption {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    color: #ffffff !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #006400 !important;
+    border: none !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn-primary:hover {
+    background-color: #00a000 !important;
+}
+
+/* Carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 50% !important;
+}
+
+
+.vh-80{
+    height: 80vh;
+}
